@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules -r dotenv/config app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@starterkit/auth-server": "0.1.0",
+    "@starterkit/config": "0.1.0",
+    "@starterkit/database-server": "0.1.0",
+    "@starterkit/home-server": "0.1.0",
+    "@starterkit/router-server": "0.1.0",
+    "@starterkit/utils-server": "0.1.0",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "nodemon": "2.0.6"
+  }
+}
